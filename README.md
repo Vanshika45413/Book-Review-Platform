@@ -30,41 +30,40 @@ The project architecture emphasizes reusable components, clear separation of con
 
 ---
 
-## Project Structure
-├── bookshelves/ # Bookshelf feature domain
-│ ├── components/ # UI components for bookshelf
-│ │ ├── common/ # Shared reusable components
-│ │ ├── BookCard.tsx # Book display card component
-│ │ ├── Layout.tsx # Page layout component
-│ │ ├── ReviewCard.tsx # Review display card component
-│ │ └── ReviewForm.tsx # Review submission form
-│ ├── contexts/ # React Context providers
+## Project Structure├── bookshelves/
+│ ├── components/
+│ │ ├── common/
+│ │ ├── BookCard.tsx
+│ │ ├── Layout.tsx
+│ │ ├── ReviewCard.tsx
+│ │ └── ReviewForm.tsx
+│ ├── contexts/
 │ │ └── BookReviewContext.tsx
-│ └── ... # Additional feature logic/files
-├── pages/ # App pages (routes)
+│ └── ...
+├── pages/
 │ ├── AddBookPage.tsx
 │ ├── BookDetailPage.tsx
 │ ├── BookListPage.tsx
 │ ├── HomePage.tsx
 │ └── UserProfilePage.tsx
-├── public/ # Static assets served directly
+├── public/
 │ └── images/
 │ └── 1984.jpg
-├── services/ # API and external service integrations
+├── services/
 │ └── api.ts
-├── .env.local # Local environment variables
-├── .gitignore # Git ignore rules
-├── App.tsx # Root React component
-├── constants.tsx # Application-wide constants
-├── index.html # Main HTML entry point
-├── index.tsx # React DOM rendering entry
-├── metadata.json # App metadata (version, info)
-├── package.json # NPM package config & dependencies
-├── package-lock.json # Exact dependency versions
-├── README.md # Project documentation (this file)
-├── tsconfig.json # TypeScript configuration
-├── types.ts # Global TypeScript types and interfaces
-└── vite.config.ts # Vite build config
+├── .env.local
+├── .gitignore
+├── App.tsx
+├── constants.tsx
+├── index.html
+├── index.tsx
+├── metadata.json
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.json
+├── types.ts
+└── vite.config.ts
 
 ---
 
