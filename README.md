@@ -21,10 +21,10 @@ The project architecture emphasizes reusable components, clear separation of con
 
 ## Tech Stack
 
-- **Frontend:** React 18, TypeScript, Vite, Tailwind CSS (optional, if used)  
+- **Frontend:** React 18, TypeScript, Vite, Tailwind CSS (optional)  
 - **State Management:** React Context API  
 - **Routing:** React Router (if applicable)  
-- **API:** RESTful API calls via a centralized `services/api.ts`  
+- **API:** RESTful API calls via centralized `services/api.ts`  
 - **Build Tool:** Vite  
 - **TypeScript:** Strict typing with custom interfaces in `types.ts`
 
@@ -67,11 +67,18 @@ The project architecture emphasizes reusable components, clear separation of con
 ├── types.ts # Global TypeScript types and interfaces
 └── vite.config.ts # Vite build config
 
+yaml
+Copy
+Edit
+
 ---
 
-Usage
--Navigate between pages using the app navigation
--Add new books via the Add Book page
--View detailed book info on the Book Detail page
--Submit and view reviews
--Manage favorites or shortlisted books
+## Usage
+
+- Navigate between pages using the app navigation  
+- Add new books via the Add Book page  
+- View detailed book info on the Book Detail page  
+- Submit and view reviews  
+- Manage favorites or shortlisted books
+
+---
