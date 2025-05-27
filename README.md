@@ -31,7 +31,6 @@ The project architecture emphasizes reusable components, clear separation of con
 ---
 
 ## Project Structure
-
 ├── bookshelves/ # Bookshelf feature domain
 │ ├── components/ # UI components for bookshelf
 │ │ ├── common/ # Shared reusable components
@@ -66,10 +65,6 @@ The project architecture emphasizes reusable components, clear separation of con
 ├── tsconfig.json # TypeScript configuration
 ├── types.ts # Global TypeScript types and interfaces
 └── vite.config.ts # Vite build config
-
-yaml
-Copy
-Edit
 
 ---
 
