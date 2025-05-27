@@ -30,7 +30,8 @@ The project architecture emphasizes reusable components, clear separation of con
 
 ---
 
-## Project Structure├── bookshelves/
+## Project Structure
+├── bookshelves/
 │ ├── components/
 │ │ ├── common/
 │ │ ├── BookCard.tsx
